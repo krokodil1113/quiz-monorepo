@@ -1,0 +1,20 @@
+# Ignore build outputs for all services
+/services/**/build/
+/services/**/.gradle/
+/services/**/out/
+
+/# IntelliJ IDEA config
+.idea/
+/*.iml
+
+# Gradle
+.gradle/
+/build/
+
+# System files
+*.DS_Store
+*.log
+
+# Maven & Gradle wrappers
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
